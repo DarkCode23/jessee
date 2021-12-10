@@ -1,37 +1,22 @@
 <!DOCTYPE html>
-<html lang="en-GB">
-  <head>
-    <meta charset="UTF-8" />
-    
-    <!-- Site metadata -->
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    
-    <!-- Page title -->
-    <title>Page not found</title>
-    
-    <!-- Resource links -->
-    <link href="https://ThePseudoDopamineCentre.github.io/res/css/index.css" type="text/css" rel="stylesheet" />
-    
-    <!-- Page-specific styling -->
-    <style>
-      /* Header styles */
-      header {
-          background: var(--raisin-black);
-          text-align: center;
-      }
-    </style>
-  </head>
-  <body>
-    <!-- Main content structure -->
-    <header class="flex">
-      <div class="container">
-        <h1>Hep-!</h1>
-        <p>Sorry, but the page you were trying to view doesn't exist.</p>
-        <div class="buttons">
-          <a class="button" href="https://BlandFloralwhitePatch.boncblos.repl.co">Back to homepage</a>
-          <a class="button" href="https://BlandFloralwhitePatch.boncblos.repl.co/#about">"Help"</a>
-        </div>
-      </div>
-    </header>
-  </body>
+<html>
+
+<head>
+    <link type="text/css" rel="stylesheet" href="css/404.css" />
+</head>
+
+<body class="permission_denied">
+    <div id="tsparticles"></div>
+    <div class="denied__wrapper">
+        <h1>404</h1>
+        <h3>Lost in <span>Google?</span> ~Name? Hmm, looks like that page doesn't exist.</h3>
+        <img id="astronaut" src="images/astronaut.svg" />
+        <img id="planet" src="images/planet.svg" />
+        <a href="#"><button class="denied__link">Go Home</button></a>
+    </div>
+
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/tsparticles@1.18.11/dist/tsparticles.min.js"></script>
+    <script type="text/javascript" src="js/404.js"></script>
+
 </html>
